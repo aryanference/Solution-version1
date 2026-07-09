@@ -1,0 +1,36 @@
+# Economics / Business Parameters for E-Scooter Battery Swap & Relocation
+# =======================================================================
+# These are §12 "Assumptions" — parameters NOT specified in the source
+# instance. Tune with your actual operating economics.
+# See README.md for rationale behind each default.
+
+# Travel cost coefficient ($/minute)
+# Normalizes travel cost to raw minutes of driving
+lambda_travel: 1.0
+
+# Unmet demand penalty ($/unit of unmet demand)
+# Must dominate travel cost so the policy prioritizes demand coverage
+lambda_unmet: 50.0
+
+# Ablation sweep values for lambda_unmet (Pareto curve generation)
+lambda_unmet_sweep: [10, 50, 100, 200]
+
+# Period length (minutes) — the pre-rush operating window
+# λ'' = λ' / period_length ≈ 0.833
+period_length: 60
+
+# Processing times (minutes per operation)
+# swap_time_min: time to perform one battery swap at a region
+# reloc_time_min: time to pick up or drop off one scooter during relocation
+swap_time_min: 1.5
+reloc_time_min: 1.0
+
+# Delay urgency weighting scheme for h_r
+# "demand_proportional": h_r = D_r (higher-demand regions penalized more)
+# "uniform": h_r = 1 for all regions
+urgency_weighting: "demand_proportional"
+
+# Reward computation mode
+# "terminal": single reward at episode end (negative of Eq. 1)
+# "shaped": per-step travel-time increments + lump penalty at Level-1 completion
+reward_mode: "shaped"

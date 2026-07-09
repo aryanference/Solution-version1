@@ -1,0 +1,1273 @@
+[
+  {
+    "region_count": 10,
+    "scooter_count": 29,
+    "max_battery": 5,
+    "battery_threshold": 2,
+    "extra_batteries": 4,
+    "battery_carrying_capacity": 5,
+    "scooter_carrying_capacity": 5,
+    "vehicle_count": 1,
+    "hub": {
+      "id": "hub",
+      "x": 7.84,
+      "y": 6.42
+    },
+    "regions": [
+      {
+        "id": 0,
+        "x": 5.74,
+        "y": 13.81,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 1,
+        "x": 10.75,
+        "y": 8.88,
+        "demand": 2,
+        "functional": 4,
+        "non_functional": 1
+      },
+      {
+        "id": 2,
+        "x": 2.68,
+        "y": 2.68,
+        "demand": 2,
+        "functional": 2,
+        "non_functional": 0
+      },
+      {
+        "id": 3,
+        "x": 1.31,
+        "y": 12.63,
+        "demand": 1,
+        "functional": 3,
+        "non_functional": 0
+      },
+      {
+        "id": 4,
+        "x": 8.92,
+        "y": 10.41,
+        "demand": 0,
+        "functional": 2,
+        "non_functional": 1
+      },
+      {
+        "id": 5,
+        "x": 0.79,
+        "y": 14.08,
+        "demand": 4,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 6,
+        "x": 12.15,
+        "y": 3.47,
+        "demand": 2,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 7,
+        "x": 3.05,
+        "y": 3.07,
+        "demand": 1,
+        "functional": 4,
+        "non_functional": 0
+      },
+      {
+        "id": 8,
+        "x": 4.76,
+        "y": 7.85,
+        "demand": 2,
+        "functional": 3,
+        "non_functional": 0
+      },
+      {
+        "id": 9,
+        "x": 6.55,
+        "y": 4.58,
+        "demand": 1,
+        "functional": 3,
+        "non_functional": 3
+      }
+    ],
+    "scooters": [
+      {
+        "id": "scooter_0",
+        "region": 9,
+        "x": 8.15,
+        "y": 3.09,
+        "battery": 1
+      },
+      {
+        "id": "scooter_1",
+        "region": 4,
+        "x": 11.35,
+        "y": 13.65,
+        "battery": 5
+      },
+      {
+        "id": "scooter_2",
+        "region": 1,
+        "x": 13.47,
+        "y": 10.68,
+        "battery": 5
+      },
+      {
+        "id": "scooter_3",
+        "region": 2,
+        "x": 3.24,
+        "y": 1.13,
+        "battery": 4
+      },
+      {
+        "id": "scooter_4",
+        "region": 9,
+        "x": 5.94,
+        "y": 4.3,
+        "battery": 4
+      },
+      {
+        "id": "scooter_5",
+        "region": 0,
+        "x": 8.71,
+        "y": 14.01,
+        "battery": 3
+      },
+      {
+        "id": "scooter_6",
+        "region": 9,
+        "x": 8.1,
+        "y": 2.47,
+        "battery": 4
+      },
+      {
+        "id": "scooter_7",
+        "region": 5,
+        "x": 1.54,
+        "y": 14.32,
+        "battery": 0
+      },
+      {
+        "id": "scooter_8",
+        "region": 2,
+        "x": 3.28,
+        "y": 0.58,
+        "battery": 2
+      },
+      {
+        "id": "scooter_9",
+        "region": 3,
+        "x": 3.28,
+        "y": 10.46,
+        "battery": 2
+      },
+      {
+        "id": "scooter_10",
+        "region": 6,
+        "x": 11.3,
+        "y": 1.54,
+        "battery": 1
+      },
+      {
+        "id": "scooter_11",
+        "region": 3,
+        "x": 2.12,
+        "y": 12.58,
+        "battery": 3
+      },
+      {
+        "id": "scooter_12",
+        "region": 7,
+        "x": 5.13,
+        "y": 1.39,
+        "battery": 5
+      },
+      {
+        "id": "scooter_13",
+        "region": 8,
+        "x": 5.05,
+        "y": 10.71,
+        "battery": 5
+      },
+      {
+        "id": "scooter_14",
+        "region": 1,
+        "x": 12.92,
+        "y": 7.11,
+        "battery": 4
+      },
+      {
+        "id": "scooter_15",
+        "region": 1,
+        "x": 14.1,
+        "y": 12.38,
+        "battery": 4
+      },
+      {
+        "id": "scooter_16",
+        "region": 4,
+        "x": 8.36,
+        "y": 11.29,
+        "battery": 2
+      },
+      {
+        "id": "scooter_17",
+        "region": 9,
+        "x": 7.82,
+        "y": 6.49,
+        "battery": 1
+      },
+      {
+        "id": "scooter_18",
+        "region": 9,
+        "x": 6.65,
+        "y": 3.32,
+        "battery": 0
+      },
+      {
+        "id": "scooter_19",
+        "region": 8,
+        "x": 4.9,
+        "y": 7.62,
+        "battery": 5
+      },
+      {
+        "id": "scooter_20",
+        "region": 8,
+        "x": 2.45,
+        "y": 8.96,
+        "battery": 2
+      },
+      {
+        "id": "scooter_21",
+        "region": 3,
+        "x": 3.34,
+        "y": 13.7,
+        "battery": 2
+      },
+      {
+        "id": "scooter_22",
+        "region": 4,
+        "x": 10.23,
+        "y": 12.83,
+        "battery": 1
+      },
+      {
+        "id": "scooter_23",
+        "region": 1,
+        "x": 11.81,
+        "y": 9.37,
+        "battery": 5
+      },
+      {
+        "id": "scooter_24",
+        "region": 9,
+        "x": 6.89,
+        "y": 3.56,
+        "battery": 3
+      },
+      {
+        "id": "scooter_25",
+        "region": 1,
+        "x": 13.0,
+        "y": 8.05,
+        "battery": 1
+      },
+      {
+        "id": "scooter_26",
+        "region": 7,
+        "x": 2.21,
+        "y": 5.49,
+        "battery": 5
+      },
+      {
+        "id": "scooter_27",
+        "region": 7,
+        "x": 2.04,
+        "y": 3.69,
+        "battery": 5
+      },
+      {
+        "id": "scooter_28",
+        "region": 7,
+        "x": 0.51,
+        "y": 5.44,
+        "battery": 2
+      }
+    ]
+  },
+  {
+    "region_count": 14,
+    "scooter_count": 17,
+    "max_battery": 5,
+    "battery_threshold": 2,
+    "extra_batteries": 5,
+    "battery_carrying_capacity": 5,
+    "scooter_carrying_capacity": 5,
+    "vehicle_count": 1,
+    "hub": {
+      "id": "hub",
+      "x": 6.89,
+      "y": 6.79
+    },
+    "regions": [
+      {
+        "id": 0,
+        "x": 2.11,
+        "y": 9.03,
+        "demand": 0,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 1,
+        "x": 2.37,
+        "y": 3.87,
+        "demand": 2,
+        "functional": 1,
+        "non_functional": 1
+      },
+      {
+        "id": 2,
+        "x": 5.08,
+        "y": 12.53,
+        "demand": 4,
+        "functional": 1,
+        "non_functional": 1
+      },
+      {
+        "id": 3,
+        "x": 9.83,
+        "y": 8.08,
+        "demand": 0,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 4,
+        "x": 0.91,
+        "y": 10.77,
+        "demand": 4,
+        "functional": 0,
+        "non_functional": 0
+      },
+      {
+        "id": 5,
+        "x": 6.03,
+        "y": 11.73,
+        "demand": 2,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 6,
+        "x": 4.06,
+        "y": 1.3,
+        "demand": 3,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 7,
+        "x": 12.63,
+        "y": 3.59,
+        "demand": 2,
+        "functional": 2,
+        "non_functional": 2
+      },
+      {
+        "id": 8,
+        "x": 6.17,
+        "y": 4.93,
+        "demand": 2,
+        "functional": 0,
+        "non_functional": 1
+      },
+      {
+        "id": 9,
+        "x": 1.57,
+        "y": 12.31,
+        "demand": 2,
+        "functional": 0,
+        "non_functional": 0
+      },
+      {
+        "id": 10,
+        "x": 12.39,
+        "y": 14.1,
+        "demand": 0,
+        "functional": 1,
+        "non_functional": 1
+      },
+      {
+        "id": 11,
+        "x": 5.9,
+        "y": 13.86,
+        "demand": 2,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 12,
+        "x": 6.74,
+        "y": 9.88,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 13,
+        "x": 1.66,
+        "y": 13.06,
+        "demand": 1,
+        "functional": 0,
+        "non_functional": 0
+      }
+    ],
+    "scooters": [
+      {
+        "id": "scooter_0",
+        "region": 0,
+        "x": 3.91,
+        "y": 8.73,
+        "battery": 4
+      },
+      {
+        "id": "scooter_1",
+        "region": 3,
+        "x": 14.4,
+        "y": 8.62,
+        "battery": 0
+      },
+      {
+        "id": "scooter_2",
+        "region": 7,
+        "x": 13.52,
+        "y": 4.82,
+        "battery": 1
+      },
+      {
+        "id": "scooter_3",
+        "region": 11,
+        "x": 7.55,
+        "y": 13.1,
+        "battery": 4
+      },
+      {
+        "id": "scooter_4",
+        "region": 7,
+        "x": 13.32,
+        "y": 4.23,
+        "battery": 0
+      },
+      {
+        "id": "scooter_5",
+        "region": 7,
+        "x": 14.48,
+        "y": 0.84,
+        "battery": 4
+      },
+      {
+        "id": "scooter_6",
+        "region": 7,
+        "x": 13.03,
+        "y": 4.64,
+        "battery": 2
+      },
+      {
+        "id": "scooter_7",
+        "region": 6,
+        "x": 8.47,
+        "y": 0.57,
+        "battery": 1
+      },
+      {
+        "id": "scooter_8",
+        "region": 2,
+        "x": 4.18,
+        "y": 11.63,
+        "battery": 5
+      },
+      {
+        "id": "scooter_9",
+        "region": 10,
+        "x": 13.86,
+        "y": 10.86,
+        "battery": 4
+      },
+      {
+        "id": "scooter_10",
+        "region": 12,
+        "x": 7.42,
+        "y": 9.84,
+        "battery": 2
+      },
+      {
+        "id": "scooter_11",
+        "region": 8,
+        "x": 4.07,
+        "y": 6.71,
+        "battery": 1
+      },
+      {
+        "id": "scooter_12",
+        "region": 1,
+        "x": 3.49,
+        "y": 3.2,
+        "battery": 5
+      },
+      {
+        "id": "scooter_13",
+        "region": 2,
+        "x": 5.07,
+        "y": 13.28,
+        "battery": 0
+      },
+      {
+        "id": "scooter_14",
+        "region": 10,
+        "x": 10.52,
+        "y": 13.68,
+        "battery": 0
+      },
+      {
+        "id": "scooter_15",
+        "region": 1,
+        "x": 0.69,
+        "y": 4.45,
+        "battery": 0
+      },
+      {
+        "id": "scooter_16",
+        "region": 5,
+        "x": 8.23,
+        "y": 12.33,
+        "battery": 0
+      }
+    ]
+  },
+  {
+    "region_count": 8,
+    "scooter_count": 16,
+    "max_battery": 5,
+    "battery_threshold": 2,
+    "extra_batteries": 2,
+    "battery_carrying_capacity": 5,
+    "scooter_carrying_capacity": 5,
+    "vehicle_count": 2,
+    "hub": {
+      "id": "hub",
+      "x": 8.83,
+      "y": 8.65
+    },
+    "regions": [
+      {
+        "id": 0,
+        "x": 12.19,
+        "y": 1.97,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 1
+      },
+      {
+        "id": 1,
+        "x": 10.92,
+        "y": 5.55,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 2,
+        "x": 5.53,
+        "y": 9.03,
+        "demand": 2,
+        "functional": 2,
+        "non_functional": 0
+      },
+      {
+        "id": 3,
+        "x": 6.01,
+        "y": 6.23,
+        "demand": 2,
+        "functional": 2,
+        "non_functional": 0
+      },
+      {
+        "id": 4,
+        "x": 7.64,
+        "y": 10.44,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 0
+      },
+      {
+        "id": 5,
+        "x": 13.95,
+        "y": 6.89,
+        "demand": 0,
+        "functional": 0,
+        "non_functional": 3
+      },
+      {
+        "id": 6,
+        "x": 6.49,
+        "y": 2.09,
+        "demand": 0,
+        "functional": 4,
+        "non_functional": 0
+      },
+      {
+        "id": 7,
+        "x": 3.55,
+        "y": 13.9,
+        "demand": 0,
+        "functional": 0,
+        "non_functional": 0
+      }
+    ],
+    "scooters": [
+      {
+        "id": "scooter_0",
+        "region": 4,
+        "x": 6.87,
+        "y": 11.62,
+        "battery": 2
+      },
+      {
+        "id": "scooter_1",
+        "region": 2,
+        "x": 1.79,
+        "y": 9.78,
+        "battery": 5
+      },
+      {
+        "id": "scooter_2",
+        "region": 3,
+        "x": 7.66,
+        "y": 6.21,
+        "battery": 2
+      },
+      {
+        "id": "scooter_3",
+        "region": 0,
+        "x": 14.17,
+        "y": 3.76,
+        "battery": 3
+      },
+      {
+        "id": "scooter_4",
+        "region": 5,
+        "x": 12.17,
+        "y": 10.44,
+        "battery": 0
+      },
+      {
+        "id": "scooter_5",
+        "region": 6,
+        "x": 1.35,
+        "y": 1.62,
+        "battery": 2
+      },
+      {
+        "id": "scooter_6",
+        "region": 3,
+        "x": 1.83,
+        "y": 6.89,
+        "battery": 5
+      },
+      {
+        "id": "scooter_7",
+        "region": 6,
+        "x": 9.03,
+        "y": 2.05,
+        "battery": 2
+      },
+      {
+        "id": "scooter_8",
+        "region": 5,
+        "x": 14.28,
+        "y": 4.3,
+        "battery": 1
+      },
+      {
+        "id": "scooter_9",
+        "region": 6,
+        "x": 2.8,
+        "y": 2.35,
+        "battery": 5
+      },
+      {
+        "id": "scooter_10",
+        "region": 1,
+        "x": 10.01,
+        "y": 5.84,
+        "battery": 4
+      },
+      {
+        "id": "scooter_11",
+        "region": 2,
+        "x": 5.13,
+        "y": 8.45,
+        "battery": 3
+      },
+      {
+        "id": "scooter_12",
+        "region": 0,
+        "x": 11.53,
+        "y": 0.67,
+        "battery": 0
+      },
+      {
+        "id": "scooter_13",
+        "region": 4,
+        "x": 13.26,
+        "y": 13.12,
+        "battery": 2
+      },
+      {
+        "id": "scooter_14",
+        "region": 5,
+        "x": 13.58,
+        "y": 7.36,
+        "battery": 1
+      },
+      {
+        "id": "scooter_15",
+        "region": 6,
+        "x": 3.67,
+        "y": 3.19,
+        "battery": 4
+      }
+    ]
+  },
+  {
+    "region_count": 6,
+    "scooter_count": 20,
+    "max_battery": 5,
+    "battery_threshold": 2,
+    "extra_batteries": 6,
+    "battery_carrying_capacity": 5,
+    "scooter_carrying_capacity": 5,
+    "vehicle_count": 3,
+    "hub": {
+      "id": "hub",
+      "x": 8.97,
+      "y": 7.41
+    },
+    "regions": [
+      {
+        "id": 0,
+        "x": 14.35,
+        "y": 8.19,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 1
+      },
+      {
+        "id": 1,
+        "x": 4.44,
+        "y": 1.58,
+        "demand": 3,
+        "functional": 1,
+        "non_functional": 3
+      },
+      {
+        "id": 2,
+        "x": 6.72,
+        "y": 7.12,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 1
+      },
+      {
+        "id": 3,
+        "x": 1.18,
+        "y": 2.79,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 2
+      },
+      {
+        "id": 4,
+        "x": 2.12,
+        "y": 9.28,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 2
+      },
+      {
+        "id": 5,
+        "x": 12.49,
+        "y": 9.6,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 1
+      }
+    ],
+    "scooters": [
+      {
+        "id": "scooter_0",
+        "region": 0,
+        "x": 13.42,
+        "y": 3.65,
+        "battery": 4
+      },
+      {
+        "id": "scooter_1",
+        "region": 0,
+        "x": 11.53,
+        "y": 6.15,
+        "battery": 1
+      },
+      {
+        "id": "scooter_2",
+        "region": 4,
+        "x": 6.2,
+        "y": 12.22,
+        "battery": 3
+      },
+      {
+        "id": "scooter_3",
+        "region": 2,
+        "x": 6.91,
+        "y": 8.3,
+        "battery": 2
+      },
+      {
+        "id": "scooter_4",
+        "region": 4,
+        "x": 5.89,
+        "y": 11.79,
+        "battery": 0
+      },
+      {
+        "id": "scooter_5",
+        "region": 4,
+        "x": 4.84,
+        "y": 12.06,
+        "battery": 0
+      },
+      {
+        "id": "scooter_6",
+        "region": 3,
+        "x": 0.78,
+        "y": 3.02,
+        "battery": 0
+      },
+      {
+        "id": "scooter_7",
+        "region": 4,
+        "x": 2.21,
+        "y": 12.48,
+        "battery": 3
+      },
+      {
+        "id": "scooter_8",
+        "region": 1,
+        "x": 3.08,
+        "y": 2.91,
+        "battery": 3
+      },
+      {
+        "id": "scooter_9",
+        "region": 2,
+        "x": 10.56,
+        "y": 5.82,
+        "battery": 4
+      },
+      {
+        "id": "scooter_10",
+        "region": 1,
+        "x": 7.02,
+        "y": 0.9,
+        "battery": 1
+      },
+      {
+        "id": "scooter_11",
+        "region": 1,
+        "x": 6.13,
+        "y": 1.4,
+        "battery": 1
+      },
+      {
+        "id": "scooter_12",
+        "region": 3,
+        "x": 3.4,
+        "y": 5.02,
+        "battery": 3
+      },
+      {
+        "id": "scooter_13",
+        "region": 5,
+        "x": 10.64,
+        "y": 7.06,
+        "battery": 2
+      },
+      {
+        "id": "scooter_14",
+        "region": 5,
+        "x": 13.04,
+        "y": 13.81,
+        "battery": 3
+      },
+      {
+        "id": "scooter_15",
+        "region": 5,
+        "x": 7.38,
+        "y": 14.37,
+        "battery": 0
+      },
+      {
+        "id": "scooter_16",
+        "region": 3,
+        "x": 2.76,
+        "y": 4.77,
+        "battery": 1
+      },
+      {
+        "id": "scooter_17",
+        "region": 0,
+        "x": 14.07,
+        "y": 7.88,
+        "battery": 3
+      },
+      {
+        "id": "scooter_18",
+        "region": 1,
+        "x": 5.84,
+        "y": 1.2,
+        "battery": 1
+      },
+      {
+        "id": "scooter_19",
+        "region": 2,
+        "x": 6.72,
+        "y": 12.26,
+        "battery": 1
+      }
+    ]
+  },
+  {
+    "region_count": 11,
+    "scooter_count": 30,
+    "max_battery": 5,
+    "battery_threshold": 2,
+    "extra_batteries": 6,
+    "battery_carrying_capacity": 5,
+    "scooter_carrying_capacity": 5,
+    "vehicle_count": 3,
+    "hub": {
+      "id": "hub",
+      "x": 6.14,
+      "y": 7.12
+    },
+    "regions": [
+      {
+        "id": 0,
+        "x": 11.47,
+        "y": 9.39,
+        "demand": 2,
+        "functional": 5,
+        "non_functional": 2
+      },
+      {
+        "id": 1,
+        "x": 3.99,
+        "y": 11.11,
+        "demand": 1,
+        "functional": 2,
+        "non_functional": 0
+      },
+      {
+        "id": 2,
+        "x": 4.88,
+        "y": 13.62,
+        "demand": 1,
+        "functional": 0,
+        "non_functional": 0
+      },
+      {
+        "id": 3,
+        "x": 1.1,
+        "y": 6.67,
+        "demand": 1,
+        "functional": 4,
+        "non_functional": 0
+      },
+      {
+        "id": 4,
+        "x": 13.28,
+        "y": 6.87,
+        "demand": 3,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 5,
+        "x": 7.61,
+        "y": 1.69,
+        "demand": 0,
+        "functional": 1,
+        "non_functional": 1
+      },
+      {
+        "id": 6,
+        "x": 6.47,
+        "y": 10.94,
+        "demand": 2,
+        "functional": 1,
+        "non_functional": 2
+      },
+      {
+        "id": 7,
+        "x": 12.64,
+        "y": 5.03,
+        "demand": 1,
+        "functional": 0,
+        "non_functional": 2
+      },
+      {
+        "id": 8,
+        "x": 1.96,
+        "y": 11.73,
+        "demand": 1,
+        "functional": 1,
+        "non_functional": 0
+      },
+      {
+        "id": 9,
+        "x": 6.03,
+        "y": 9.29,
+        "demand": 1,
+        "functional": 3,
+        "non_functional": 1
+      },
+      {
+        "id": 10,
+        "x": 1.0,
+        "y": 4.7,
+        "demand": 0,
+        "functional": 1,
+        "non_functional": 3
+      }
+    ],
+    "scooters": [
+      {
+        "id": "scooter_0",
+        "region": 3,
+        "x": 1.99,
+        "y": 7.79,
+        "battery": 5
+      },
+      {
+        "id": "scooter_1",
+        "region": 8,
+        "x": 0.75,
+        "y": 11.55,
+        "battery": 2
+      },
+      {
+        "id": "scooter_2",
+        "region": 3,
+        "x": 2.0,
+        "y": 6.51,
+        "battery": 4
+      },
+      {
+        "id": "scooter_3",
+        "region": 10,
+        "x": 1.83,
+        "y": 0.78,
+        "battery": 3
+      },
+      {
+        "id": "scooter_4",
+        "region": 0,
+        "x": 14.45,
+        "y": 13.22,
+        "battery": 1
+      },
+      {
+        "id": "scooter_5",
+        "region": 4,
+        "x": 12.69,
+        "y": 7.7,
+        "battery": 5
+      },
+      {
+        "id": "scooter_6",
+        "region": 0,
+        "x": 10.29,
+        "y": 12.33,
+        "battery": 4
+      },
+      {
+        "id": "scooter_7",
+        "region": 5,
+        "x": 8.34,
+        "y": 3.6,
+        "battery": 5
+      },
+      {
+        "id": "scooter_8",
+        "region": 5,
+        "x": 7.31,
+        "y": 3.76,
+        "battery": 1
+      },
+      {
+        "id": "scooter_9",
+        "region": 9,
+        "x": 8.6,
+        "y": 6.78,
+        "battery": 5
+      },
+      {
+        "id": "scooter_10",
+        "region": 9,
+        "x": 4.86,
+        "y": 9.63,
+        "battery": 5
+      },
+      {
+        "id": "scooter_11",
+        "region": 1,
+        "x": 3.8,
+        "y": 10.26,
+        "battery": 3
+      },
+      {
+        "id": "scooter_12",
+        "region": 9,
+        "x": 7.03,
+        "y": 9.24,
+        "battery": 1
+      },
+      {
+        "id": "scooter_13",
+        "region": 7,
+        "x": 12.92,
+        "y": 4.27,
+        "battery": 0
+      },
+      {
+        "id": "scooter_14",
+        "region": 0,
+        "x": 11.58,
+        "y": 14.36,
+        "battery": 4
+      },
+      {
+        "id": "scooter_15",
+        "region": 1,
+        "x": 2.99,
+        "y": 9.67,
+        "battery": 2
+      },
+      {
+        "id": "scooter_16",
+        "region": 6,
+        "x": 6.54,
+        "y": 11.07,
+        "battery": 3
+      },
+      {
+        "id": "scooter_17",
+        "region": 0,
+        "x": 10.65,
+        "y": 7.72,
+        "battery": 0
+      },
+      {
+        "id": "scooter_18",
+        "region": 10,
+        "x": 4.03,
+        "y": 3.68,
+        "battery": 1
+      },
+      {
+        "id": "scooter_19",
+        "region": 0,
+        "x": 9.59,
+        "y": 10.42,
+        "battery": 4
+      },
+      {
+        "id": "scooter_20",
+        "region": 3,
+        "x": 2.22,
+        "y": 6.78,
+        "battery": 4
+      },
+      {
+        "id": "scooter_21",
+        "region": 0,
+        "x": 11.57,
+        "y": 13.77,
+        "battery": 4
+      },
+      {
+        "id": "scooter_22",
+        "region": 9,
+        "x": 6.37,
+        "y": 6.52,
+        "battery": 3
+      },
+      {
+        "id": "scooter_23",
+        "region": 6,
+        "x": 7.23,
+        "y": 12.91,
+        "battery": 1
+      },
+      {
+        "id": "scooter_24",
+        "region": 10,
+        "x": 1.67,
+        "y": 0.68,
+        "battery": 0
+      },
+      {
+        "id": "scooter_25",
+        "region": 0,
+        "x": 13.43,
+        "y": 8.92,
+        "battery": 4
+      },
+      {
+        "id": "scooter_26",
+        "region": 7,
+        "x": 8.83,
+        "y": 5.43,
+        "battery": 1
+      },
+      {
+        "id": "scooter_27",
+        "region": 6,
+        "x": 5.51,
+        "y": 10.84,
+        "battery": 1
+      },
+      {
+        "id": "scooter_28",
+        "region": 3,
+        "x": 1.44,
+        "y": 8.83,
+        "battery": 4
+      },
+      {
+        "id": "scooter_29",
+        "region": 10,
+        "x": 2.51,
+        "y": 2.07,
+        "battery": 0
+      }
+    ]
+  }
+]
