@@ -62,8 +62,6 @@ This work relies on several explicit modeling choices and assumptions:
 
 ## Business Assumptions
 
-> ⚠️ **Tune these with your actual operating economics.** All values live in config files, never hardcoded.
-
 | Parameter | Default | Config Key | Rationale |
 |---|---|---|---|
 | λ (travel cost, $/min) | 1.0 | `economics.lambda_travel` | Normalizes travel cost to raw minutes |
